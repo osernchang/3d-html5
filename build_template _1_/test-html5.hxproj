@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+	<!-- Output SWF options -->
+	<output>
+		<movie outputType="Application" />
+		<movie input="" />
+		<movie path="html5\kha.js" />
+		<movie fps="30" />
+		<movie width="800" />
+		<movie height="600" />
+		<movie version="16" />
+		<movie minorVersion="0" />
+		<movie platform="JavaScript" />
+		<movie background="#ffffff" />
+		<movie preferredSDK="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\Kha\Tools\haxe" />
+	</output>
+	<!-- Other classes to be compiled into your SWF -->
+	<classpaths>
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\Kha\Sources" />
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\Kha\Backends\HTML5" />
+		<class path="..\Sources" />
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\armory\Sources" />
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\iron\Sources" />
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\lib\haxebullet\Sources" />
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\armory" />
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\iron" />
+		<class path="..\..\3D\3Dsource\ArmorySDK2001\ArmorySDK\lib\haxebullet" />
+	</classpaths>
+	<!-- Build options -->
+	<build>
+		<option directives="" />
+		<option flashStrict="False" />
+		<option noInlineOnDebug="False" />
+		<option mainClass="Main" />
+		<option enabledebug="False" />
+		<option additional="-D hxcpp_smart_strings&#xA;-D E:/3D/3Dsource/ArmorySDK2001/ArmorySDK/armory&#xA;-D E:/3D/3Dsource/ArmorySDK2001/ArmorySDK/iron&#xA;-D E:/3D/3Dsource/ArmorySDK2001/ArmorySDK/lib/haxebullet&#xA;-D arm_hosek&#xA;-D arm_deferred&#xA;-D arm_csm&#xA;-D rp_hdr&#xA;-D rp_renderer=Deferred&#xA;-D rp_shadowmap&#xA;-D rp_shadowmap_cascade=1024&#xA;-D rp_shadowmap_cube=512&#xA;-D rp_background=World&#xA;-D rp_render_to_texture&#xA;-D rp_compositornodes&#xA;-D rp_antialiasing=SMAA&#xA;-D rp_supersampling=1&#xA;-D rp_ssgi=SSAO&#xA;-D rp_bloom&#xA;-D rp_decals&#xA;-D arm_audio&#xA;-D arm_physics&#xA;-D arm_bullet&#xA;-D arm_published&#xA;-D arm_soundcompress&#xA;-D arm_skin&#xA;-D arm_particles&#xA;-D arm_loadscreen&#xA;-D arm_resizable&#xA;-D sys_g1&#xA;-D sys_g2&#xA;-D sys_g3&#xA;-D sys_a1&#xA;-D sys_a2&#xA;-D kha_js&#xA;-D kha_g1&#xA;-D kha_g2&#xA;-D kha_g3&#xA;-D kha_a1&#xA;-D kha_a2&#xA;-D canvas_id=khanvas&#xA;-D script_name=kha&#xA;-D sys_g4&#xA;-D kha_g4&#xA;-D kha_webgl&#xA;-D sys_html5&#xA;-D kha_html5&#xA;-D kha_html5_js&#xA;-D sys_html5&#xA;-D kha_html5&#xA;-D kha_html5_js&#xA;-D kha&#xA;-D kha_version=1810&#xA;-D kha_project_name=test&#xA;-D kha_output=&quot;E:\ArmoryProjects\build_template _1_\html5\kha.js&quot;&#xA;-dce full&#xA;arm.node.DathVaderLogic&#xA;--macro keep(&apos;arm.node.DathVaderLogic&apos;)&#xA;arm.node.BulletLogic&#xA;--macro keep(&apos;arm.node.BulletLogic&apos;)&#xA;arm.node.ScoutAnimation&#xA;--macro keep(&apos;arm.node.ScoutAnimation&apos;)&#xA;arm.node.Camlogic&#xA;--macro keep(&apos;arm.node.Camlogic&apos;)&#xA;arm.node.Blocking&#xA;--macro keep(&apos;arm.node.Blocking&apos;)&#xA;armory.trait.physics.bullet.PhysicsWorld&#xA;--macro keep(&apos;armory.trait.physics.bullet.PhysicsWorld&apos;)&#xA;arm.node.EnemyBullet&#xA;--macro keep(&apos;arm.node.EnemyBullet&apos;)&#xA;arm.node.ST_animationControl&#xA;--macro keep(&apos;arm.node.ST_animationControl&apos;)&#xA;armory.trait.physics.bullet.RigidBody&#xA;--macro keep(&apos;armory.trait.physics.bullet.RigidBody&apos;)&#xA;" />
+	</build>
+	<!-- haxelib libraries -->
+	<haxelib>
+		<!-- example: <library name="..." /> -->
+	</haxelib>
+	<!-- Class files to compile (other referenced classes will automatically be included) -->
+	<compileTargets>
+		<compile path="..\Sources\Main.hx" />
+	</compileTargets>
+	<!-- Paths to exclude from the Project Explorer tree -->
+	<hiddenPaths>
+		<!-- example: <hidden path="..." /> -->
+	</hiddenPaths>
+	<!-- Executed before build -->
+	<preBuildCommand />
+	<!-- Executed after build -->
+	<postBuildCommand alwaysRun="False" />
+	<!-- Other project options -->
+	<options>
+		<option showHiddenPaths="False" />
+		<option testMovie="Webserver" />
+		<option testMovieCommand="html5\index.html" />
+	</options>
+	<!-- Plugin storage -->
+	<storage />
+</project>
